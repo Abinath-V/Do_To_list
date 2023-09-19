@@ -1,0 +1,17 @@
+body,html{
+    height: 100%;
+    background-image: url("do-to.jpg");
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: cover;
+}
+#add-task{
+    display: flex;
+    justify-content: space-around;
+    height: 30px;
+    width: 900px;
+}
+#task-list{
+    color: white;
+    font-size: 50px;
+}

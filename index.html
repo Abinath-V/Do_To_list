@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="app">
+        <h1 align="center">Task Manager</h1>
+        <div id="task-list">
+        </div>
+        <div id="add-task">
+            <input type="text" id="task-name" placeholder="Task Name" size="30px">
+            <input type="date" id="due-date" size="25px">
+            <select id="priority">
+                <option value="low">Low</option>
+                <option value="medium">Medium</option>
+                <option value="high">High</option>
+            </select>
+            <button onclick="addTaskUI()">Add Task</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
